@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Special Birthday 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- =========================
+         COVER / HALAMAN DEPAN
+    ========================== -->
+
+    <div id="cover" class="halaman">
+
+        <div class="cover-card">
+
+            <div class="gift">
+                🎁
+            </div>
+
+            <h1>
+                I Have Something For You
+            </h1>
+
+            <p>
+                Sebelum mulai surprisenya, coba ketik namanya dulu ya...
+            </p>
+
+            <p>
+             💗
+            </p>
+
+
+            <input
+                type="text"
+                id="nama"
+                placeholder="Nama"
+            >
+
+
+            <button onclick="mulai()">
+                Lanjut 
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         HALAMAN ULANG TAHUN
+    ========================== -->
+
+    <div id="halaman1" class="halaman">
+
+        <div class="birthday-card">
+
+            <div class="cake">
+                🎂
+            </div>
+
+            <h1>
+                Selamat Ulang Tahun,
+                <span id="namaTampil"></span>! 🎉
+            </h1>
+
+            <p>
+                Hari ini adalah hari spesial!.
+            </p>
+
+            <p>
+                Terima kasih udah mau bertahan dan berjuang sejauh ini ❤️
+                Lu harus tau, kalau lu itu hebat dan pantas bahagia di hari spesial lu sendiri. 
+                Untuk saat ini izinkan gw memberi lu reward buat lu yang umurnya makin tua HAHAHA!
+            </p>
+
+            <button onclick="bukaHalaman2()">
+                Oke
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         HALAMAN PESAN
+    ========================== -->
+
+    <div id="halaman2" class="halaman">
+
+        <div class="birthday-card">
+
+            <h1>
+                Sebelum itu, gw mau mengingatkan sesuatu sama lu.
+            </h1>
+            <p> Coba tonton dulu videonya </p>
+            <video controls style="width: 100%; max-width: 400px; height: auto;">
+             <source src="video1.mp4" type="video/mp4">
+             <source src="video1.ogg" type="video/ogg">
+ 
+                 Your browser does not support HTML video.
+           </video>
+            <br>
+             <audio controls>
+              <source src="video1.ogg" type="audio/ogg">
+              <source src="video1.mp3" type="audio/mpeg">
+             Your browser does not support the audio element.
+           </audio>
+           <br>
+            <a href="ultah2.html">Klik Link</a>
+            🤍
+
+            <button onclick="bukaHalaman3()">
+                Lanjut
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         HALAMAN 3
+    ========================== -->
+
+    <div id="halaman3" class="halaman">
+
+        <div class="birthday-card">
+
+            <h1>
+                Tunggu dulu... udah siap nerima gift? 👀
+            </h1>
+
+            <p>
+               Coba tebak giftnya apa
+            </p>
+
+           
+           <br>
+            <a href="heart.html">Kejutan 1</a>
+             <a href="bintang.html">Kejutan 2</a>
+            🤍
+
+        </div>
+
+    </div>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
